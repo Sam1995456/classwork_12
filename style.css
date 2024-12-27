@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.sign-in__most-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-in__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.username-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  margin-bottom: 30px;
+}
+
+.sign-in__username {
+  color: rgb(102, 102, 102);
+  font-family: "Noto Sans";
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 8px;
+}
+
+.sign-in__input-username {
+  color: rgb(102, 102, 102);
+  font-family: "Noto Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 564px;
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 8px;
+  /* W Background */
+  background: rgb(255, 255, 255);
+  padding-left: 16px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.password-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.sign-in__password {
+  color: rgb(102, 102, 102);
+  font-family: "Noto Sans";
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-align: left;
+}
